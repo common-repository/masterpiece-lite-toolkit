@@ -1,0 +1,43 @@
+.fd-metabox-wrap {
+  margin-top: 12px;
+  padding-top: 12px;
+  border-top: 1px solid #eee;
+}
+.fd-metabox-wrap.fd-metabox-wrap-first {
+  margin-top: 12px;
+  padding-top: 0px;
+  border-top: none;
+}
+.fd-metabox-wrap .fd-help {
+  font-size: 85%;
+  font-style: italic;
+}
+.fd-row {
+  margin-right: -15px;
+  margin-left: -15px;
+}
+.fd-row:before, .fd-row:after {
+  display: table;
+  content: " ";
+}
+.fd-row:after {
+  clear: both;
+}
+.fd-row, .fd-row *, .fd-row:before, .fd-row:after {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+.fd-col-xs-3, .fd-col-xs-9 {
+  float: left !important;
+  position: relative;
+  min-height: 1px;
+  padding-right: 15px;
+  padding-left: 15px;
+}
+.fd-col-xs-3 {
+    width: 25%;
+}
+.fd-col-xs-9 {
+  width: 75%;
+}
